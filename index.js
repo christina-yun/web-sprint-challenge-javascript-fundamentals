@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-/* nestedFunction is able to access the const of internal because 
+/* nestedFunction is able to access the const of 'internal' because of the concept of closure. nestedFunction does not have a variable called 'internal' in its local scope, so it reaches out to its parent function myFunction to see if 'internal' has a value there. Once JavaScript 'sees' a value for internal in myFunction's scope, it stops looking, and uses that value for the console.log in nestedFunction. At the point that nestedFunction reaches outside of itself to look in its parent myFunction is when the closure happens.
 
 */
 
