@@ -54,7 +54,7 @@ While all 3 array methods are higher order functions that have been made availab
 
 5. Why do we need super() in an extended class?
 
-    A: We need to use super() in order to access and call functions on an object's parent. While the 'extend' keyword points to what the parent of a class is, super() is the function that calls and copies over all the functions from the parent class to the child class.
+    A: We need to use super() in order to access and call functions on an object's parent. While the 'extend' keyword points to what the parent of a class is, super() is the function that calls and copies over all the functions from the parent class to the child class in conjunction with the 'constructor' keyword.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
